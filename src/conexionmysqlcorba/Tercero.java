@@ -102,6 +102,7 @@ public class Tercero extends TerceroPOA {
         ResultSet resultado = null;
         
         //
+        //
         try {
             String sql = "Select nombres, apellidos, telefono from terceros";
             objConec.conectar();
