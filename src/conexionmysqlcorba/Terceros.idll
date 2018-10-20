@@ -3,7 +3,7 @@ module Terceros{
         boolean insertarTercero(in wstring nombre, in wstring apellidos, in wstring telefono);
         boolean actualizarTercero(in long id, in wstring nombre, in wstring apellidos, in wstring telefono);
         boolean eliminarTercero(in long id);
-        boolean consultarTercero(in long id);
+        wstring consultarTercero(in long id);
         
         oneway void shutdwn();
     };
